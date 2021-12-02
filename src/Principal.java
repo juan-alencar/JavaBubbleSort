@@ -16,7 +16,10 @@ public class Principal {
 		System.out.println(randomList);// imprimindo a lista aleatoria
 		buscaLinear(40, randomList);// buscando o numero 40 na lista aleatoria e encontrando a posicao
 
+
 		bubbleSort(randomList); //ordenando lista com funcao bubbleSort
+		System.out.println();
+		System.out.println("Lista Ordenada");
 		System.out.println(randomList); //mostrando a lista ordenada
 	}
 
